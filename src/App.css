@@ -1,0 +1,282 @@
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#honk {
+  position: absolute;
+  top: 1000px;
+  left: 1000px;
+  font-weight: bolder;
+  font-size: 20px;
+  color: whitesmoke;
+}
+
+#honk:hover {
+  cursor: default;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.header {
+  position: absolute;
+  top: 15%;
+  left: 15%;
+}
+
+.header h1 {
+  color: whitesmoke;
+  font-size: 80px;
+}
+
+.learnmore {
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  border: 3px solid whitesmoke;
+  position: relative;
+  left: 3px;
+  top: -35px;
+  background: linear-gradient(15deg, #ED1D12 0%, #ED8A12 100%);
+  color: whitesmoke;
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.learnmore:hover {
+  left: 20px;
+  cursor: pointer;
+}
+
+.about {
+  position: absolute;
+  top: 650px;
+  left: 150px;
+}
+
+#about-title {
+  position: relative;
+  color: #ED1D12;
+
+}
+
+#shape {
+  height: 6px;
+  width: 0px;
+  position: relative;
+  top: -17px;
+  border-radius: 50px;
+  transition: 0.5s;
+  background-color: #ED1D12;
+}
+
+#ab-h1:hover {
+  cursor: default;
+}
+
+#ab-h1:hover ~ #shape {
+  height: 6px;
+  width: 150px;
+  position: relative;
+  top: -17px;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+
+.about p {
+  color: black;
+  position: relative;
+  top: -20px;
+  width: 700px;
+}
+
+.skills {
+  position: absolute;
+  top: 1050px;
+  left: 150px;
+}
+
+#sk-h1 {
+  color: #ED8A12;
+}
+
+#shape-sk {
+  height: 6px;
+  width: 0px;
+  position: relative;
+  top: -17px;
+  border-radius: 50px;
+  transition: 0.5s;
+  background-color: #ED8A12;
+}
+
+#sk-h1:hover {
+  cursor: default;
+}
+
+#sk-h1:hover ~ #shape-sk {
+  height: 6px;
+  width: 210px;
+  position: relative;
+  top: -17px;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+
+.skills table {
+  position: relative;
+  left: -30px;
+}
+
+.skills table tr th {
+  width: 350px;
+  height: 200px;
+  background-color: whitesmoke;
+}
+
+.sk-item {
+  color: whitesmoke;
+}
+
+#mern-hover {
+  position: relative;
+  color: black;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+#discord-hover {
+  position: relative;
+  color: black;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+#firebase-hover {
+  position: relative;
+  color: black;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+#electron-hover {
+  position: relative;
+  color: black;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+#mern:hover ~ #mern-hover {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+#discord:hover ~ #discord-hover {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+#firebase:hover ~ #firebase-hover {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+#electron:hover ~ #electron-hover {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.contact {
+  position: absolute;
+  top: 1420px;
+  left: 150px;
+}
+
+#ct-h1 {
+  color: #ED1275;
+}
+
+#shape-ct {
+  height: 6px;
+  width: 0px;
+  position: relative;
+  top: -17px;
+  border-radius: 50px;
+  transition: 0.5s;
+  background-color: #ED1275;
+}
+
+#ct-h1:hover {
+  cursor: default;
+}
+
+#ct-h1:hover ~ #shape-ct {
+  width: 170px;
+}
+
+.contact ul li {
+  list-style: none;
+}
+
+.contact ul li h2 {
+  position: relative;
+  top: -60px;
+  left: 80px;
+}
+
+#mail {
+  position: relative;
+  left: 7px;
+  top: -50px;
+}
+
+#mail-text {
+  position: relative;
+  top: -110px;
+}
+
+.footer {
+  width: 100%;
+  height: 230px;
+  position: absolute;
+  top: 1800px;
+  background: linear-gradient(15deg, #ED1D12 0%, #ED8A12 100%);
+}
+
+.footer table {
+  text-align: left;
+  position: absolute;
+  left: 80px;
+  top: 20px;
+}
+
+.footer h3 {
+  color: whitesmoke;
+}
+
+.footer table tr th a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-weight: lighter;
+  transition: 0.3s;
+}
+
+.footer table tr th a:hover {
+  transition: 0.3s;
+  color: #ED8A12;
+}
+
+/*
+#ED1D12
+#ED8A12
+#ED1275
+*/
